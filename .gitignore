@@ -1,0 +1,13 @@
+.DS_Store
+config.local.json
+*.local.json
+.env
+.env.*
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+raw-screenshots/
+transcripts/
+work/

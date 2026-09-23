@@ -1,0 +1,20 @@
+{
+  "TenantId": "<YOUR-TENANT-ID>",
+  "UserId": "<ALEX-TEST-USER-OBJECT-ID>",
+  "Departments": {
+    "Finance": {
+      "GroupId": "<FINANCE-GROUP-OBJECT-ID>",
+      "GroupName": "SG-Finance-Users",
+      "ServicePrincipalId": "<FINANCE-ENTERPRISE-APP-OBJECT-ID>",
+      "ApplicationName": "Finance Portal - IAM Lab",
+      "RoleDisplayName": "User"
+    },
+    "Information Technology": {
+      "GroupId": "<IT-GROUP-OBJECT-ID>",
+      "GroupName": "SG-IT-Users",
+      "ServicePrincipalId": "<IT-ENTERPRISE-APP-OBJECT-ID>",
+      "ApplicationName": "IT Support Portal - IAM Lab",
+      "RoleDisplayName": "User"
+    }
+  }
+}
